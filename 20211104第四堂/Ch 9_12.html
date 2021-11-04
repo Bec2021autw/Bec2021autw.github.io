@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <!-- padding邊框的px分別為:上 右 下 左 -->
+        <style>
+        table{
+            background-color: rgb(156, 127, 30);
+            padding:0px 0px 0px 0px;
+            border-spacing: 5px;
+            font-family: 標楷體;
+        }
+        
+        th{
+            background-color: rgb(236, 198, 186);color: rgb(202, 94, 31);
+            font-size: 30px;text-align: center;padding: 10px;
+        }
+        td{
+            background-color: gainsboro;
+            padding: 10px;text-align: center;
+        }    
+        </style>
+        
+        <!--
+            1. 邊框粗細: padding
+            2. 在table裡面的th可以用來作標題
+            3. 在table裡面的td可以用來作格子內容
+            4. padding讓邊框有劉一些空白比較不會有壓迫感
+            **其實不一定要下在style裡面，如果要分開下也可以下在tr或td裡面**
+            例如:<tr style="text-align:right;" 或是td style="padding: 0px;">
+            這個好處是: 不會整個版面受到影響，可以只調整特定行列
+        -->
+    </head>
+    <body>
+        <table>
+        <tr>
+            <th>歌曲名稱 </th>
+            <th>演唱者 </th>
+        </tr>
+        <tr>
+            <td>阿蜜特</td>
+            <td>張惠妹 </td>
+        </tr>
+        <tr>
+            <td> 大藝術家</td>
+            <td> 蔡依林</td>
+            
+        </tr>
+    </table>
+    </body>
+</html>
